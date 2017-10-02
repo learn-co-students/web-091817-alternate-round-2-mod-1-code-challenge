@@ -47,3 +47,15 @@ Implement all of the methods described below:
   + Returns all cars
 + Car#movie_screen
   + Returns the movie screen _this_ car is at
+
+
+
+
+  di = DriveIn.new
+
+  ms = MovieScreen.new("jaws", 9)
+  ms2 = MovieScreen.new("jan", 9)
+  ms3 = MovieScreen.new("jude", 9)
+
+  c1 = Car.new(ms)
+  c2 = Car.new(ms)
